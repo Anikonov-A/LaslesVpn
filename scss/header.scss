@@ -1,0 +1,92 @@
+header {
+  padding: 56px 0;
+  background-color: #ffffff;
+
+  .header_left {
+    @include max-screen(428px) {
+      gap: 5px;
+    }
+    gap: 10px;
+
+    .nav_logo {
+      color: #0B132A;
+      font-family: "Rubik", sans-serif;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      @include max-screen(428px) {
+        font-size: 16px;
+      }
+    }
+  }
+
+  .header_center {
+    gap: 40px;
+    color: #4F5665;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    a {
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .header_right {
+    @include max-screen(575px) {
+      gap: 5px;
+    }
+
+    gap: 30px;
+
+    .btn_header {
+      color: #0B132A;
+      font-family: "Rubik", sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+
+      @include max-screen(428px) {
+        font-size: 12px;
+      }
+    }
+
+    .btn_header_right {
+      color: #F53855;
+      font-family: "Rubik", sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      padding: 13px 45px;
+      border: 1px solid #F53855;
+      border-radius: 50px;
+      text-decoration: none;
+
+      &:hover {
+        color: white;
+        background-color: #F53838;
+      }
+
+      @include max-screen(575px) {
+        padding: 6px 20px;
+      }
+      @include max-screen(428px) {
+        font-size: 12px;
+      }
+    }
+
+  }
+
+}

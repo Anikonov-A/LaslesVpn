@@ -1,0 +1,106 @@
+.pricing{
+  padding: 0 0 75px;
+  h3{
+    color: #0B132A;
+    text-align: center;
+    font-family:"Rubik",sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px;
+    margin-bottom: 20px;
+  }
+  p{
+    color: #4F5665;
+    text-align: center;
+    font-family:"Rubik",sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 60px;
+  }
+  .article_group{
+    gap: 50px;
+    @include max-screen(991px){
+      gap: 15px;
+    }
+    .pricing_card{
+      border-radius: 10px;
+      border: 2px solid #DDD;
+      padding:50px 15px 50px;
+      @include max-screen(991px){
+        width: 100%;
+        padding:15px 15px 15px;
+      }
+
+      .article_img{
+        margin-bottom: 30px;
+        @include max-screen(991px){
+          display: none;
+        }
+      }
+      p{
+        color: #0B132A;
+        text-align: center;
+        font-family:"Rubik",sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 30px;
+        margin-bottom: 30px;
+      }
+      ul{
+        list-style: none;
+        padding: 0;
+        align-self: center;
+        li{
+          color: #4F5665;
+          font-family:"Rubik",sans-serif;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 30px;
+          margin-bottom: 10px;
+          @include max-screen(991px){
+            margin-bottom: 5px;
+          }
+        }
+      }
+      .block_price{
+        span{
+          color: #0B132A;
+          text-align: center;
+          font-family:"Rubik",sans-serif;
+          font-size: 25px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 30px;
+          margin-bottom: 20px;
+        }
+        a{
+          text-decoration: none;
+          color: #F53838;
+          font-family:"Rubik",sans-serif;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+          border-radius: 50px;
+          border: 2px solid #F53838;
+          padding: 13px 63px;
+          @include max-screen(991px){
+            padding:7px 30px
+          }
+          &:hover{
+            color: #FFFFFF;
+            background-color: #F53838;
+          }
+
+        }
+      }
+
+
+    }
+  }
+}

@@ -1,0 +1,121 @@
+.main_banner{
+  padding: 50px 0;
+  .main_banner_left{
+    @include max-screen(767px){
+      text-align: center;
+    }
+    h1{
+      @include max-screen(991px){
+        font-size: 30px;
+        padding-top: 50px;
+        line-height: 40px;
+      }
+      padding: 20px 0;
+      color: #0B132A;
+      font-family:"Rubik",sans-serif;
+      font-size: 50px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 70px;
+      span{
+        color: #0B132A;
+        font-family:"Rubik",sans-serif;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 70px;
+        @include max-screen(991px){
+          font-size: 29px;
+          line-height: 40px;
+        }
+      }
+    }
+    p{
+      margin-bottom: 30px;
+      color: #4F5665;
+      font-family:"Rubik",sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 30px;
+      span{
+        color: #4F5665;
+        font-family:"Rubik",sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 30px;
+      }
+    }
+    a{
+      color: #FFF;
+      font-family:"Rubik",sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 25px;
+      text-decoration: none;
+      padding: 17.5px 77.5px ;
+      border-radius: 10px;
+      background: #F53838;
+      box-shadow: 0 10px 10px rgba(245, 56, 56, 0.35);
+      &:hover{
+        text-decoration: underline;
+      }
+
+      &:active{
+        transform: translateY(15px);
+        box-shadow: 0 0 0 ;
+      }
+    }
+  }
+}
+.main_banner_bottom{
+  align-items: center;
+  padding-top: 100px;
+  .block_center{
+    border-left: 2px solid #EEEFF2;
+    border-right: 2px solid #EEEFF2;
+  }
+  .block_art{
+    .block{
+      @include max-screen(575px){
+       text-align: center;
+      }
+    }
+    gap: 37px;
+    @include max-screen(767px){
+      gap: 10px;
+    }
+    img{
+      @include max-screen(575px){
+        display: none;
+      }
+    }
+  }
+  span{
+    color: #0B132A;
+    font-family:"Rubik",sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+  }
+  .p{
+    color: #4F5665;
+    font-family:"Rubik",sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+  }
+}
+.main_banner_right{
+  @include max-screen(1200px){
+    padding-top: 50px;
+  }
+  .banner_img{
+    width: 100%;
+
+  }
+}
