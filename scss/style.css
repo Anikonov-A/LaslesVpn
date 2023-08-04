@@ -401,6 +401,7 @@ header .header_right .btn_header_right:hover {
 
 .global_network {
   padding: 75px 0 60px;
+  text-align: center;
 }
 .global_network .container-xxl .services_group article a {
   max-width: 100%;
