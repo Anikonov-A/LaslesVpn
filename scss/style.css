@@ -402,15 +402,26 @@ header .header_right .btn_header_right:hover {
 .global_network {
   padding: 75px 0 60px;
 }
-.global_network h2 {
+.global_network .container-xxl .services_group article a {
+  max-width: 100%;
+  display: inline-block;
+}
+.global_network .container-xxl .services_group .owl-stage {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.global_network .container-xxl .services_group .owl-stage .owl-item {
   text-align: center;
+}
+.global_network h2 {
   margin-bottom: 20px;
-  /*  color: #0B132A;
-    font-family:"Rubik",sans-serif;
-    font-size: 35px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 50px;*/
+  color: #0B132A;
+  font-family: "Rubik", sans-serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 50px;
 }
 .global_network p {
   margin-bottom: 50px;
@@ -420,7 +431,74 @@ header .header_right .btn_header_right:hover {
   font-style: normal;
   font-weight: 500;
   line-height: 30px;
+}
+
+.section_with_reviews {
   text-align: center;
+  padding-bottom: 100px;
+}
+.section_with_reviews h2 {
+  margin-bottom: 20px;
+  color: #0B132A;
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 50px;
+}
+.section_with_reviews p {
+  color: #4F5665;
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 60px;
+}
+.section_with_reviews .article_group {
+  padding-top: 60px;
+}
+
+.review_card {
+  padding: 30px;
+  max-width: 400px;
+  border-radius: 10px;
+  border: 2px solid #F53838;
+  background: #FFF;
+}
+.review_card .card_text {
+  margin: 0;
+}
+.review_card .top_left img {
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+.review_card .top_left .text .firstP {
+  color: #0B132A;
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  margin: 0;
+}
+.review_card .top_left .text .secondP {
+  color: #4F5665;
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 230px;
 }
 
 /*# sourceMappingURL=style.css.map */

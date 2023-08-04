@@ -1,0 +1,69 @@
+.section_with_reviews{
+  text-align: center;
+  padding-bottom: 100px;
+  h2{
+    margin-bottom: 20px;
+    color: #0B132A;
+    text-align: center;
+    font-family:"Rubik",sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px;
+  }
+  p{
+    color: #4F5665;
+    text-align: center;
+    font-family:"Rubik",sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 60px;
+  }
+  .article_group{
+    padding-top: 60px;
+  }
+}
+.review_card{
+  .card_text{
+    margin: 0;
+  }
+  padding:30px;
+  max-width: 400px;
+  border-radius: 10px;
+  border: 2px solid #F53838;
+  background: #FFF;
+  .top_left{
+    img{
+      margin-bottom: 20px;
+      margin-right: 10px;
+    }
+    .text{
+      .firstP{
+        color: #0B132A;
+        text-align: center;
+        font-family:"Rubik",sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 30px;
+        margin: 0;
+      }
+      .secondP{
+        color: #4F5665;
+        text-align: center;
+        font-family:"Rubik",sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        margin: 0;
+      }
+    }
+  }
+}
+.swiper {
+  width: 100%;
+  height: 230px;
+}
