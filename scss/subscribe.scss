@@ -1,6 +1,17 @@
 .subscribe{
-  padding: 70px 0;
-  background: #FFFFFF;
+  position: relative;
+  top: 200px;
+  z-index: 99;
+  padding: 50px 0;
+
+
+  .cont{
+    background: #FFFFFF;
+    border-radius: 10px;
+    border:1px solid #f8f8f8;
+    padding: 15px;
+
+  }
   @include max-screen(768px){
     padding: 35px 0;
   }

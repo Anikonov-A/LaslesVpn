@@ -1,6 +1,5 @@
 .section_with_reviews{
   text-align: center;
-  padding-bottom: 100px;
   @include max-screen(768px){
     padding-bottom: 30px;
   }
